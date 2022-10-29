@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <!-- Linking CSS  -->
+    <link rel="stylesheet" href="timer.css">
+</head>
+
+<body>
+
+    <!-- The main container -->
+    <div id="wrapper">
+        <img src="clock.png" alt="clock">
+        <a href="index.html">Back</a>
+
+        <!-- This h1 text changes to real time -->
+        <h1>00:00:00</h1>
+
+        <!-- Form to take time input -->
+        <form class="setAlarm">
+            <!-- Div to set hours, minutes & seconds -->
+            <div class="set-alarm-field">
+                <input type="number" name="hr" placeholder="HH" max="23" min="00">
+                <input type="number" name="min" placeholder="MM" max="59" min="00">
+                <input type="number" name="sec" placeholder="SS" max="59" min="00">
+            </div>
+            <!-- Div that contains buttons -->
+            <div class="buttons">
+                <button type="submit" class="set-alarm">Set Alarm</button>
+                <button type="reset" onclick="stopAlarm()" class="clear-alarm">Stop Alarm</button>
+            </div>
+        </form>
+
+        <hr style="margin-top: 20px">
+
+        <h3 style="margin: 20px 0;">Upcoming Alarms</h3>
+
+        <!-- Div that contains the list of all set alarms -->
+        <div id="upcoming-alarms">
+            <ul id="upcoming-alarms-list">
+                <!-- The list item is added using javascript when set alarm button is pressed -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Linking JavaScript file -->
+    <script src="timer.js"></script>
+
+</body>
+
+</html>
