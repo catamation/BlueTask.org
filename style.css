@@ -22,7 +22,7 @@ h1 {
 .title{
 	color: blue;
 	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 900;
 }
 
 .inputDiv{
@@ -81,7 +81,7 @@ h1 {
 	border: none;
 	color: #fff;
 	font-size: 1.4rem;
-	width: 165px;
+	width: 200px;
 }
 
 .edit{
@@ -104,3 +104,4 @@ h1 {
 	font-family: 'Hind', sans-serif;
 	cursor: pointer;
 }
+
