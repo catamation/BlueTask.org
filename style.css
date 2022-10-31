@@ -37,7 +37,7 @@ h1 {
     border: none;
     height: 50px;
     border-radius: 25px;
-    width: 350px;
+    width: 335px;
     margin: 0.25rem;
     transition: .5s;
     font-size: 1.15rem;
@@ -81,7 +81,7 @@ h1 {
 	border: none;
 	color: #fff;
 	font-size: 1.4rem;
-	width: 245px;
+	width: 165px;
 }
 
 .edit{
@@ -104,4 +104,3 @@ h1 {
 	font-family: 'Hind', sans-serif;
 	cursor: pointer;
 }
-
